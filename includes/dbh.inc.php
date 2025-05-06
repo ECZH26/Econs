@@ -3,9 +3,9 @@
 //data source name
 $host = 'localhost';
 $dbname = 'econs';
-$dsn = "mysql:host=$host;dbname=$dbname"; //anyname of the database
 $dbusername = "root";
 $dbpassword = "";
+$dsn = "mysql:host=$host;dbname=$dbname";
 
 try {
     //This is the database connection
